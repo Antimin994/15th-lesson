@@ -1,11 +1,6 @@
 document.body.addEventListener('keydown', moveBlock);
 var block = document.querySelector('#blueRect');
 
-var clientX = document.documentElement.clientWidth;
-var clientY = document.documentElement.clientHeight;   
-console.log(clientX);  
-console.log(clientY);
-
 function moveBlock(event) {
 console.log('moveBlock--> ', event.key);
 var blockStyle = block.getAttribute('style');
